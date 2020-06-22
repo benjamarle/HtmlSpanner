@@ -31,15 +31,15 @@ public class VerticalMarginSpan implements LineHeightSpan {
     public void chooseHeight(CharSequence text, int start, int end, int spanstartv, int v,
                              Paint.FontMetricsInt fm) {
 
-        int height = Math.abs( fm.descent - fm.ascent );
-
-        if ( factor != null ) {
-            height = (int) (height * factor);
-        } else if ( absolute != null ) {
-            height = absolute;
-        }
-
-        fm.descent = fm.ascent + height;
+//        int height = Math.abs( fm.descent - fm.ascent );
+//
+//        if ( factor != null ) {
+//            height = (int) (height * factor);
+//        } else if ( absolute != null ) {
+//            height = absolute;
+//        }
+//
+//        fm.descent = fm.ascent + height;
 
     }
 }
